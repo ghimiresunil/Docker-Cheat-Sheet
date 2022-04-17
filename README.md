@@ -17,7 +17,19 @@ A “container image” is a template for the execution of a container — It me
 
 Once a container is created, the execution is managed by the container runtime. You can interact with the container runtime through the `“docker”` command. 
 
-
+### General Usage
+* Start a container in background 
+```
+$> docker run -d jenkins
+```
+* Start an interactive container 
+```
+$> docker run -it ubuntu bash
+```
+* Start a container automatically removed on stop 
+```
+$> docker run --rm ubuntu bash
+```
 
 
 
