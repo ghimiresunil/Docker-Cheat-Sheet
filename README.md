@@ -186,3 +186,6 @@ Some of the important terms to know about while using Docker containers are list
 * **Registry/hub**: A central place where images reside
 * **Docker machine**: A VM to run Docker containers
 * **Docker Compose**: A VM to run multiple containers as a system
+
+# 4. Contribution
+Contributions are very welcome! Please submit a pull request on GitHub.
